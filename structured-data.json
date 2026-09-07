@@ -1,0 +1,159 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://github.com/haddindeve#person",
+      "name": "Muhammad Tanveer",
+      "jobTitle": "Full-Stack AI Automation Engineer",
+      "email": "mailto:mtanveertahir66@gmail.com",
+      "url": "https://github.com/haddindeve",
+      "sameAs": [
+        "https://www.linkedin.com/in/muhammad-tanveer-advenno/",
+        "https://github.com/haddindeve"
+      ],
+      "description": "Full-stack AI automation engineer. I build agentic systems, browser and workflow automation, RAG pipelines and the production web platforms they run on - from Rust and Python services to Next.js dashboards and PHP/MySQL business systems.",
+      "knowsAbout": [
+        "3D food model menu",
+        "AI assistant routing",
+        "AI content generation",
+        "AI operating system",
+        "AI posture analysis",
+        "AI research agent",
+        "AI sales agent",
+        "AI video generation",
+        "AI-native ERP",
+        "AR restaurant menu",
+        "ATM electronic journal parser",
+        "B2B export catalogue",
+        "B2B lead generation AI",
+        "EJ log parsing",
+        "GL reconciliation",
+        "Google Maps ranking automation",
+        "IoT analytics dashboard",
+        "LinkedIn lead generation",
+        "NFC access control",
+        "POSIX threads C",
+        "Playwright browser automation",
+        "Rust accounting engine",
+        "SEO content automation",
+        "WhatsApp AI agent",
+        "agency management platform",
+        "algorithmic trading Python",
+        "augmented reality menu",
+        "automated lead generation",
+        "automated trading dashboard",
+        "automated video pipeline",
+        "biometric identity verification",
+        "client portal",
+        "concurrent programming",
+        "constraint satisfaction problem",
+        "corrective exercise platform",
+        "crypto trading bot",
+        "cycle tracking app",
+        "document OCR software",
+        "e-passport chip reading",
+        "eMRTD verification",
+        "employee portal",
+        "exporter buyer discovery",
+        "fabric shop software",
+        "face anti-spoofing",
+        "fitness CRM",
+        "gym management software",
+        "industrial IoT monitoring",
+        "inventory management POS",
+        "lead enrichment pipeline",
+        "liveness detection",
+        "local SEO automation",
+        "multi-branch accounting software",
+        "musculoskeletal assessment software",
+        "natural language search leads",
+        "offline-first PWA",
+        "order management system",
+        "orthopaedic casting stockinette",
+        "presentation attack detection",
+        "privacy-first mobile app",
+        "product catalogue CMS",
+        "prospect research automation",
+        "restaurant POS system",
+        "retail POS system",
+        "retail automation",
+        "scanned document processing",
+        "shortest path algorithm",
+        "smart manufacturing platform",
+        "social media automation",
+        "stockinette supplier",
+        "surgical instruments manufacturer website",
+        "table extraction AI",
+        "thread synchronisation",
+        "topical authority",
+        "tubular stockinette manufacturer",
+        "women's health app"
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Local Pulse - Google Maps CTR Automation Platform",
+      "description": "Campaign control plane for Google Maps local ranking, driving a Playwright browser fleet from a Next.js dashboard.",
+      "codeRepository": "https://github.com/haddindeve/local-pulse-maps-ctr-platform",
+      "author": {
+        "@id": "https://github.com/haddindeve#person"
+      },
+      "creator": {
+        "@id": "https://github.com/haddindeve#person"
+      },
+      "programmingLanguage": [
+        "Next.js, TypeScript",
+        "Node.js, Express",
+        "Playwright",
+        "PostgreSQL",
+        "Linux VPS, loopback-bound services"
+      ],
+      "keywords": [
+        "Google Maps ranking automation",
+        "local SEO automation",
+        "Playwright browser automation",
+        "CTR campaign platform",
+        "browser fleet orchestration",
+        "Next.js dashboard"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does the platform automate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It orchestrates browser-profile fleets that perform search and referral flows for Google Maps local-ranking campaigns, and records the outcome of each run."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Playwright rather than a headless HTTP client?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maps flows depend on real rendering, interaction and session state. Playwright drives an actual browser profile, which an HTTP client cannot reproduce."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it multi-tenant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes - campaigns and results are scoped per tenant so an agency can run several clients from one installation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I see the code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The implementation is private. Access can be arranged on request."
+          }
+        }
+      ]
+    }
+  ]
+}

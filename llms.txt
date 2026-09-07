@@ -1,0 +1,41 @@
+# Local Pulse - Google Maps CTR Automation Platform
+
+> Campaign control plane for Google Maps local ranking, driving a Playwright browser fleet from a Next.js dashboard.
+
+Author: Muhammad Tanveer (Full-Stack AI Automation Engineer)
+Contact: mtanveertahir66@gmail.com | https://www.linkedin.com/in/muhammad-tanveer-advenno/
+Repository: https://github.com/haddindeve/local-pulse-maps-ctr-platform
+Source availability: implementation held in a private repository; access on request.
+
+## Summary
+Local-ranking campaigns meant an operator manually driving dozens of browser profiles, with no shared record of what ran, from which profile, or what happened afterwards. Work was unrepeatable and impossible to audit across clients.
+
+Two cooperating processes in one repository: a Next.js dashboard as the command centre, and a Node/Express + Playwright backend that drives a fleet of isolated browser profiles on a Linux VPS. The dashboard talks to the live backend over a typed API layer; campaigns, workers and results are persisted so every run is reproducible and attributable.
+
+## Stack
+Frontend: Next.js, TypeScript, Backend: Node.js, Express, Automation: Playwright, Database: PostgreSQL, Infrastructure: Linux VPS, loopback-bound services
+
+## Capabilities
+- Campaign control plane for Maps local-ranking work
+- Playwright fleet with per-profile isolation
+- Search and referral flow engine
+- Multi-tenant separation for agency use
+- Deployment runbook for reproducible VPS setup
+
+## Outcomes
+- Manual browser driving replaced by queued, auditable campaign runs
+- Every run attributable to a campaign, profile and result set
+- Backend bound to loopback and fronted by the dashboard, keeping automation off the public internet
+
+## FAQ
+Q: What does the platform automate?
+A: It orchestrates browser-profile fleets that perform search and referral flows for Google Maps local-ranking campaigns, and records the outcome of each run.
+
+Q: Why Playwright rather than a headless HTTP client?
+A: Maps flows depend on real rendering, interaction and session state. Playwright drives an actual browser profile, which an HTTP client cannot reproduce.
+
+Q: Is it multi-tenant?
+A: Yes - campaigns and results are scoped per tenant so an agency can run several clients from one installation.
+
+Q: Can I see the code?
+A: The implementation is private. Access can be arranged on request.
